@@ -36,8 +36,8 @@ Follow the steps below to set up both the backend and frontend.
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/image-explanation-chat-software.git
-cd image-explanation-chat-software
+git clone https://github.com/anuragjft/ImageExplainaition-model.git
+cd ImageExplainaition-model
 ```
 
 ### 2. Backend Setup
