@@ -23,7 +23,7 @@ const VisionWave = () => {
     };
 
     const resetSummary = async () => {
-        await fetch('http://127.0.0.1:8000/reset-summary', { method: 'POST' });
+        await fetch('https://imageexplainaition-model.onrender.com/reset-summary', { method: 'POST' });
     };
 
     useEffect(() => {
@@ -44,7 +44,7 @@ const VisionWave = () => {
 
             let response;
             if (file.type.startsWith('image/')) {
-                response = await fetch('http://127.0.0.1:8000/analyze-image/', { method: 'POST', body: formData });
+                response = await fetch('https://imageexplainaition-model.onrender.com/analyze-image/', { method: 'POST', body: formData });
             } else {
                 alert('Unsupported file type. Please upload an image or PDF.');
                 setLoadingFile(false);
@@ -69,7 +69,7 @@ const VisionWave = () => {
             setUserInput('');
             setLoadingChat(true);
 
-            const response = await fetch('http://127.0.0.1:8000/chat/', {
+            const response = await fetch('https://imageexplainaition-model.onrender.com/chat/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ user_text: userText }),
