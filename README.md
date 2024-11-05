@@ -128,7 +128,7 @@ Ensure these keys are correctly set to interact with the respective models.
 
 We welcome contributions to this project! If you'd like to help improve the code, please fork the repository and submit a pull request.
 
+![Uploading Screenshot from 2024-11-05 15-01-44.png…]()
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-![Uploading Screenshot from 2024-11-05 15-01-44.png…]()
